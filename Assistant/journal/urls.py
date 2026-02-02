@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import JournalList, JournalCreate, JournalUpdate, JournalDelete
+from .views import *
 
 urlpatterns = [
     path('', JournalList.as_view(), name = 'journal_list'), 
